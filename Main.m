@@ -1,5 +1,6 @@
 function [] = Main()
-
+% Can vary hypothesis 
+% Can vary data ratio and prefix is use to save data directly
 for h = 3:1:3
 hypothesis = h;
 for dt = 4:1:4
